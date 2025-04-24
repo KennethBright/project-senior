@@ -8,13 +8,6 @@ import re
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/')
-def home():
-    return '''
-    <h1>👋 Welcome to Project Senior</h1>
-    <p>The backend is running successfully.</p>
-    '''
-
 
 def normalize(text):
     return re.sub(r"\s+", " ", text.strip().lower())
