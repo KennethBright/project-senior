@@ -1,0 +1,5 @@
+flask
+flask-cors
+xlwings
+python-pptx
+openpyxl
