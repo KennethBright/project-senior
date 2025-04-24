@@ -12,7 +12,7 @@ function App() {
   const [status, setStatus] = useState('idle');
   const [fileUrl, setFileUrl] = useState(null);
   const [colorStatus, setColorStatus] = useState('');
-
+// temp update to trigger git
   const glowColor =
     status === 'success' ? 'glow-green' :
     status === 'fail' ? 'glow-red' : '';
